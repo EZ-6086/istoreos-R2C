@@ -20,3 +20,8 @@
 # echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 # echo 'src-git adguardhome https://github.com/rufengsuixing/luci-app-adguardhome' >>feeds.conf.default
 # echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
+
+# Add luci-app-passwall
+git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages
+git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2
+git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
